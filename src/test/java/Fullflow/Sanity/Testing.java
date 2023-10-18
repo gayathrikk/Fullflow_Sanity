@@ -488,7 +488,7 @@ public class Testing {
          
          
          //Brain access activity
-         String jsonBody1 = "{\"user\":\"124\",\"action\":\"Login\",\"info\":\"Brain Id - 15 \"}";
+         String jsonBody1 = "{\"user\":124,\"action\":\"Brain Access\",\"info\":\"Brain Id - 16\"}";
     	 Response response1 = RestAssured
              .given()
                  .auth()
