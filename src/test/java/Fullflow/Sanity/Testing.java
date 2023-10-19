@@ -504,7 +504,7 @@ public class Testing {
          } else {
              System.out.println("API request to Brainaccess Activity failed. Status code: " + statusCode1);
          }
-         Assert.assertEquals(statusCode1, 201, "API request to Activity failed");  
+         Assert.assertEquals(statusCode1, 201, "API request to Brainaccess Activity failed");  
          
          //Get thumbnails details
          Response response2 = RestAssured.get("https://apollo2.humanbrain.in/GW/getBrainThumbNailDetails/IIT/V1/SS-15:-1:-1");
