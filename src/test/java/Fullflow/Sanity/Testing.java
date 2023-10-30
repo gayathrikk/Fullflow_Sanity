@@ -208,7 +208,7 @@ public class Testing {
 
     	 clickElementByXpath("//table[@class='cdk-table nb-tree-grid']//tr[6]", "Human fetus");
     	 clickElementByXpath("//table[@class='cdk-table nb-tree-grid']//tr[7]//td[2]", "Brain");
-    	 clickElementByXpath("//table[@class='cdk-table nb-tree-grid']//tr[9]//td[3]", "FB3");
+    	 clickElementByXpath("//table[@class='cdk-table nb-tree-grid']//tr[25]//td[3]", "FB40");
     	 
     	seriesset_API();
         checkConsoleLog();
@@ -219,7 +219,7 @@ public class Testing {
     {
     	WebDriverWait wait = new WebDriverWait(driver, 10);
     	driver.switchTo().defaultContent(); // Switch back to default content
-    	WebElement section = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("(//span[text()='1006'])[1]")));
+    	WebElement section = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("(//span[text()='712'])[1]")));
     	if (section.isEnabled() && section.isDisplayed()) {
     	    section.click();
     	    System.out.println("section is selected");
@@ -257,7 +257,7 @@ public class Testing {
     {
     	WebDriverWait wait = new WebDriverWait(driver, 10);
     	driver.switchTo().defaultContent(); // Switch back to default content
-    	WebElement section = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("(//span[text()='1006'])[1]")));
+    	WebElement section = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("(//span[text()='712'])[1]")));
     	if (section.isEnabled() && section.isDisplayed()) {
     	    section.click();
     	    System.out.println("section is selected");
@@ -296,7 +296,7 @@ public class Testing {
     {
     	WebDriverWait wait = new WebDriverWait(driver, 10);
     	driver.switchTo().defaultContent(); // Switch back to default content
-    	WebElement section = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("(//span[text()='1006'])[1]")));
+    	WebElement section = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("(//span[text()='712'])[1]")));
     	if (section.isEnabled() && section.isDisplayed()) {
     	    section.click();
     	    System.out.println("section is selected");
@@ -336,7 +336,7 @@ public class Testing {
     {
     	WebDriverWait wait = new WebDriverWait(driver, 10);
     	driver.switchTo().defaultContent(); // Switch back to default content
-    	WebElement section = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("(//span[text()='1006'])[1]")));
+    	WebElement section = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("(//span[text()='712'])[1]")));
     	if (section.isEnabled() && section.isDisplayed()) {
     	    section.click();
     	    System.out.println("section is selected");
