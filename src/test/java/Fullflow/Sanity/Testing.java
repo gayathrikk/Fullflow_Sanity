@@ -257,6 +257,9 @@ public class Testing {
     {
     	WebDriverWait wait = new WebDriverWait(driver, 10);
     	driver.switchTo().defaultContent(); // Switch back to default content
+    	WebElement series = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//span[text()='NISSL']")));
+    	if (series.isEnabled() && series.isDisplayed()) {
+    	    series.click();
     	WebElement section = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("(//span[text()='712'])[1]")));
     	if (section.isEnabled() && section.isDisplayed()) {
     	    section.click();
@@ -296,6 +299,9 @@ public class Testing {
     {
     	WebDriverWait wait = new WebDriverWait(driver, 10);
     	driver.switchTo().defaultContent(); // Switch back to default content
+    	WebElement series = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//span[text()='NISSL']")));
+    	if (series.isEnabled() && series.isDisplayed()) {
+    	    series.click();
     	WebElement section = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("(//span[text()='712'])[1]")));
     	if (section.isEnabled() && section.isDisplayed()) {
     	    section.click();
@@ -336,6 +342,9 @@ public class Testing {
     {
     	WebDriverWait wait = new WebDriverWait(driver, 10);
     	driver.switchTo().defaultContent(); // Switch back to default content
+    	WebElement series = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//span[text()='NISSL']")));
+    	if (series.isEnabled() && series.isDisplayed()) {
+    	    series.click();
     	WebElement section = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("(//span[text()='712'])[1]")));
     	if (section.isEnabled() && section.isDisplayed()) {
     	    section.click();
