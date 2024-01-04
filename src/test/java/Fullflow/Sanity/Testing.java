@@ -258,8 +258,12 @@ public class Testing {
     	WebDriverWait wait = new WebDriverWait(driver, 10);
     	driver.switchTo().defaultContent(); // Switch back to default content
     	WebElement series = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//span[text()='NISSL']")));
-    	if (series.isEnabled() && series.isDisplayed()) {
-    	    series.click();
+    	    if (series.isEnabled() && series.isDisplayed()) {
+        	    series.click();
+        	    System.out.println("series is selected");
+        	} else {
+        	    System.out.println("series is not selected");
+        	}
     	WebElement section = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("(//span[text()='712'])[1]")));
     	if (section.isEnabled() && section.isDisplayed()) {
     	    section.click();
@@ -291,6 +295,7 @@ public class Testing {
      	checkConsoleLog();
      	Atlas_API();
      	System.out.println("*******************************Atlas editor validation done*****************************");
+     	
     	
     }
     
@@ -300,8 +305,12 @@ public class Testing {
     	WebDriverWait wait = new WebDriverWait(driver, 10);
     	driver.switchTo().defaultContent(); // Switch back to default content
     	WebElement series = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//span[text()='NISSL']")));
-    	if (series.isEnabled() && series.isDisplayed()) {
+	    if (series.isEnabled() && series.isDisplayed()) {
     	    series.click();
+    	    System.out.println("series is selected");
+    	} else {
+    	    System.out.println("series is not selected");
+    	}
     	WebElement section = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("(//span[text()='712'])[1]")));
     	if (section.isEnabled() && section.isDisplayed()) {
     	    section.click();
@@ -343,8 +352,12 @@ public class Testing {
     	WebDriverWait wait = new WebDriverWait(driver, 10);
     	driver.switchTo().defaultContent(); // Switch back to default content
     	WebElement series = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//span[text()='NISSL']")));
-    	if (series.isEnabled() && series.isDisplayed()) {
+	    if (series.isEnabled() && series.isDisplayed()) {
     	    series.click();
+    	    System.out.println("series is selected");
+    	} else {
+    	    System.out.println("series is not selected");
+    	}
     	WebElement section = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("(//span[text()='712'])[1]")));
     	if (section.isEnabled() && section.isDisplayed()) {
     	    section.click();
