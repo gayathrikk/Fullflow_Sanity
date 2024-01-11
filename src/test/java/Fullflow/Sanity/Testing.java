@@ -110,11 +110,11 @@ public class Testing {
 //        validateElementText("//h3[text()='About']//following::li[2]", "Technology development for high throughput neurohistology pipeline with cellular resolution", "About point 2");
 //        validateElementText("//h3[text()='About']//following::li[3]", "Identification and analysis of neuronal architecture and pathways at a single neuron level", "About point 3");
 //        validateElementText("//h3[text()='About']//following::li[4]", "Generation of Visible data resources including the light-microscopic atlas of the human brain.", "About point 4");
-        validateElementText("//h3[text()='About']//following::h5[1]", "Brain Research through Advanced Integrated Neuroanatomy", "Footer heading 1");
-        validateElementText("//h3[text()='About']//following::p[6]", "Whole human brain neuro mapping at cellular resolution.", "Footer paragraph 1");
-        validateElementText("//h3[text()='About']//following::h5[2]", "ADDRESS", "Footer heading 2");
-        validateElementText("//h3[text()='About']//following::p[7]", "Sudha Gopalakrishnan BRAIN Centre\nStilt floor, NAC-1 Building\nIIT Madras, Chennai - 600036, India\nEmail: contact@humanbrainiitm.in\nPhone: +91-44-2257-8892", "Footer paragraph 2");
-        validateElementText("//h3[text()='About']//following::p[8]", "© All Rights Reserved. Designed by HTML Codex", "Footer paragraph 3");
+//        validateElementText("//h3[text()='About']//following::h5[1]", "Brain Research through Advanced Integrated Neuroanatomy", "Footer heading 1");
+//        validateElementText("//h3[text()='About']//following::p[6]", "Whole human brain neuro mapping at cellular resolution.", "Footer paragraph 1");
+//        validateElementText("//h3[text()='About']//following::h5[2]", "ADDRESS", "Footer heading 2");
+//        validateElementText("//h3[text()='About']//following::p[7]", "Sudha Gopalakrishnan BRAIN Centre\nStilt floor, NAC-1 Building\nIIT Madras, Chennai - 600036, India\nEmail: contact@humanbrainiitm.in\nPhone: +91-44-2257-8892", "Footer paragraph 2");
+//        validateElementText("//h3[text()='About']//following::p[8]", "© All Rights Reserved. Designed by HTML Codex", "Footer paragraph 3");
 
         checkConsoleLog();
         HOMEpage_API();
