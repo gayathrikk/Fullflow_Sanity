@@ -5,6 +5,7 @@ package Fullflow.Sanity;
 import org.openqa.selenium.By;
 
 
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.logging.LogEntries;
 import org.openqa.selenium.logging.LogEntry;
@@ -77,7 +78,10 @@ public class Testing {
         validateElement("(//a[text()='PEOPLE'])[1]", "PEOPLE");
 
         // PROJECT option
-        validateElement("(//a[text()='PROJECT'])[1]", "PROJECT");
+        //validateElement("(//a[text()='PROJECT'])[1]", "PROJECT");
+        
+        //  HIGHLIGHTS option 
+        validateElement("(//a[text()='HIGHLIGHTS'])[1]", "HIGHLIGHTS");
 
         // DATA PORTAL option
         validateElement("((//a[text()='NEWS & EVENTS'])//preceding::a[1])[1]", "DATA PORTAL");
