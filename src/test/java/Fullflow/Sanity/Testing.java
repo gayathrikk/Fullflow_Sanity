@@ -214,6 +214,19 @@ public class Testing {
     	 clickElementByXpath("//table[@class='cdk-table nb-tree-grid']//tr[7]//td[2]", "Brain");
     	 clickElementByXpath("//table[@class='cdk-table nb-tree-grid']//tr[25]//td[3]", "FB40");
     	 
+    	 String parentWindow = driver.getWindowHandle();
+    	 
+    	 clickElementByXpath("//nb-icon[@nbtooltip='Viewer']", "viewer icon");
+    	 
+    	 wait.until(ExpectedConditions.numberOfWindowsToBe(2));
+		  Set<String> allWindows = driver.getWindowHandles();
+	        for (String window : allWindows) {
+	            if (!window.equals(parentWindow)) {
+	                driver.switchTo().window(window);
+	                break;
+	            }
+	        }
+    	 
     	seriesset_API();
         checkConsoleLog();
         System.out.println("*********************************Series set validation done**********************************");
