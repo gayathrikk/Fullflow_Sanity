@@ -210,9 +210,9 @@ public class Testing {
     	 validateElementTextAndClick("//a[text()=' Mouse ']", "Mouse", "Mouse brain");
     	 validateElementTextAndClick("//a[text()=' Quail(Coturnix japonica) ']", "Quail(Coturnix japonica)", "Quail brain");
 
-    	 clickElementByXpath("//table[@class='cdk-table nb-tree-grid']//tr[6]", "Human fetus");
-    	 clickElementByXpath("//table[@class='cdk-table nb-tree-grid']//tr[7]//td[2]", "Brain");
-    	 clickElementByXpath("//table[@class='cdk-table nb-tree-grid']//tr[25]//td[3]", "FB40");
+    	 clickElementByXpath("//table[@role='grid']//tr[6]", "Human fetus");
+    	 clickElementByXpath("//table[@role='grid']//tr[7]//td[2]", "Brain");
+    	 clickElementByXpath("//table[@role='grid']//tr[25]//td[3]", "FB40");
     	 
     	 String parentWindow = driver.getWindowHandle();
     	 
