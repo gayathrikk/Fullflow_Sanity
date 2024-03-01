@@ -2,44 +2,44 @@
 <testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-21T12:41:32 IST" name="Default suite" finished-at="2024-02-21T12:43:51 IST" duration-ms="138490">
+  <suite started-at="2024-03-01T10:18:47 IST" name="Default suite" finished-at="2024-03-01T10:20:44 IST" duration-ms="117762">
     <groups>
     </groups>
-    <test started-at="2024-02-21T12:41:32 IST" name="Default test" finished-at="2024-02-21T12:43:51 IST" duration-ms="138490">
+    <test started-at="2024-03-01T10:18:47 IST" name="Default test" finished-at="2024-03-01T10:20:44 IST" duration-ms="117762">
       <class name="Fullflow.Sanity.Testing">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Fullflow.Sanity.Testing@18d87d80]" started-at="2024-02-21T12:41:32 IST" name="setup" finished-at="2024-02-21T12:41:34 IST" duration-ms="1886" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Fullflow.Sanity.Testing@3cebbb30]" started-at="2024-03-01T10:18:47 IST" name="setup" finished-at="2024-03-01T10:18:58 IST" duration-ms="11396" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Home_page()[pri:1, instance:Fullflow.Sanity.Testing@18d87d80]" started-at="2024-02-21T12:41:34 IST" name="Home_page" finished-at="2024-02-21T12:41:48 IST" duration-ms="14125" status="PASS">
+        <test-method signature="Home_page()[pri:1, instance:Fullflow.Sanity.Testing@3cebbb30]" started-at="2024-03-01T10:18:58 IST" name="Home_page" finished-at="2024-03-01T10:19:03 IST" duration-ms="4566" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Home_page -->
-        <test-method signature="login()[pri:2, instance:Fullflow.Sanity.Testing@18d87d80]" started-at="2024-02-21T12:41:48 IST" name="login" finished-at="2024-02-21T12:42:05 IST" duration-ms="16926" status="PASS">
+        <test-method signature="login()[pri:2, instance:Fullflow.Sanity.Testing@3cebbb30]" started-at="2024-03-01T10:19:03 IST" name="login" finished-at="2024-03-01T10:19:11 IST" duration-ms="8580" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="series_set()[pri:3, instance:Fullflow.Sanity.Testing@18d87d80]" started-at="2024-02-21T12:42:05 IST" name="series_set" finished-at="2024-02-21T12:42:35 IST" duration-ms="30098" status="PASS">
+        <test-method signature="series_set()[pri:3, instance:Fullflow.Sanity.Testing@3cebbb30]" started-at="2024-03-01T10:19:11 IST" name="series_set" finished-at="2024-03-01T10:19:33 IST" duration-ms="21921" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- series_set -->
-        <test-method signature="HD()[pri:4, instance:Fullflow.Sanity.Testing@18d87d80]" started-at="2024-02-21T12:42:35 IST" name="HD" finished-at="2024-02-21T12:42:55 IST" duration-ms="20048" status="PASS">
+        <test-method signature="HD()[pri:4, instance:Fullflow.Sanity.Testing@3cebbb30]" started-at="2024-03-01T10:19:33 IST" name="HD" finished-at="2024-03-01T10:19:51 IST" duration-ms="18149" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HD -->
-        <test-method signature="Atlas_Editor()[pri:5, instance:Fullflow.Sanity.Testing@18d87d80]" started-at="2024-02-21T12:42:55 IST" name="Atlas_Editor" finished-at="2024-02-21T12:43:13 IST" duration-ms="18041" status="PASS">
+        <test-method signature="Atlas_Editor()[pri:5, instance:Fullflow.Sanity.Testing@3cebbb30]" started-at="2024-03-01T10:19:51 IST" name="Atlas_Editor" finished-at="2024-03-01T10:20:08 IST" duration-ms="17078" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Atlas_Editor -->
-        <test-method signature="Cell_annotation()[pri:6, instance:Fullflow.Sanity.Testing@18d87d80]" started-at="2024-02-21T12:43:13 IST" name="Cell_annotation" finished-at="2024-02-21T12:43:33 IST" duration-ms="20046" status="PASS">
+        <test-method signature="Cell_annotation()[pri:6, instance:Fullflow.Sanity.Testing@3cebbb30]" started-at="2024-03-01T10:20:08 IST" name="Cell_annotation" finished-at="2024-03-01T10:20:28 IST" duration-ms="19862" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Cell_annotation -->
-        <test-method signature="Manual_Registration()[pri:7, instance:Fullflow.Sanity.Testing@18d87d80]" started-at="2024-02-21T12:43:33 IST" name="Manual_Registration" finished-at="2024-02-21T12:43:51 IST" duration-ms="17172" status="PASS">
+        <test-method signature="Manual_Registration()[pri:7, instance:Fullflow.Sanity.Testing@3cebbb30]" started-at="2024-03-01T10:20:28 IST" name="Manual_Registration" finished-at="2024-03-01T10:20:44 IST" duration-ms="16036" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Manual_Registration -->
-        <test-method is-config="true" signature="close()[pri:0, instance:Fullflow.Sanity.Testing@18d87d80]" started-at="2024-02-21T12:43:51 IST" name="close" finished-at="2024-02-21T12:43:51 IST" duration-ms="116" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:Fullflow.Sanity.Testing@3cebbb30]" started-at="2024-03-01T10:20:44 IST" name="close" finished-at="2024-03-01T10:20:44 IST" duration-ms="129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->

@@ -43,12 +43,12 @@ public class Testing {
         driver = new RemoteWebDriver(url, dc);
     }
 
-    @Parameters("URL")
+    //@Parameters("URL")
     @Test(priority=1)
-    public void Home_page(@Optional("defaultURL") String URL) throws InterruptedException {
-       driver.get(URL);
-    	//public void Home_page() throws InterruptedException {
-    	//driver.get("https://apollo2.humanbrain.in/viewer/annotation/portal");
+   // public void Home_page(@Optional("defaultURL") String URL) throws InterruptedException {
+      // driver.get(URL);
+    	public void Home_page() throws InterruptedException {
+    	driver.get("https://apollo2.humanbrain.in/viewer/annotation/portal");
         driver.manage().window().maximize();
         String currentURL = driver.getCurrentUrl();
         System.out.println("Current URL: " + currentURL);
@@ -236,7 +236,7 @@ public class Testing {
     {
     	WebDriverWait wait = new WebDriverWait(driver, 10);
     	driver.switchTo().defaultContent(); // Switch back to default content
-    	WebElement section = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("(//span[text()='712'])[1]")));
+    	WebElement section = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("(//span[text()='883'])[1]")));
     	if (section.isEnabled() && section.isDisplayed()) {
     	    section.click();
     	    System.out.println("section is selected");
@@ -281,7 +281,7 @@ public class Testing {
         	} else {
         	    System.out.println("series is not selected");
         	}
-    	WebElement section = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("(//span[text()='712'])[1]")));
+    	WebElement section = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("(//span[text()='883'])[1]")));
     	if (section.isEnabled() && section.isDisplayed()) {
     	    section.click();
     	    System.out.println("section is selected");
@@ -328,7 +328,7 @@ public class Testing {
     	} else {
     	    System.out.println("series is not selected");
     	}
-    	WebElement section = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("(//span[text()='712'])[1]")));
+    	WebElement section = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("(//span[text()='883'])[1]")));
     	if (section.isEnabled() && section.isDisplayed()) {
     	    section.click();
     	    System.out.println("section is selected");
@@ -375,7 +375,7 @@ public class Testing {
     	} else {
     	    System.out.println("series is not selected");
     	}
-    	WebElement section = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("(//span[text()='712'])[1]")));
+    	WebElement section = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("(//span[text()='883'])[1]")));
     	if (section.isEnabled() && section.isDisplayed()) {
     	    section.click();
     	    System.out.println("section is selected");
