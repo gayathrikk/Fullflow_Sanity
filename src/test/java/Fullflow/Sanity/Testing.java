@@ -43,12 +43,12 @@ public class Testing {
         driver = new RemoteWebDriver(url, dc);
     }
 
-    //@Parameters("URL")
+    @Parameters("URL")
     @Test(priority=1)
-   // public void Home_page(@Optional("defaultURL") String URL) throws InterruptedException {
-      // driver.get(URL);
-    	public void Home_page() throws InterruptedException {
-    	driver.get("https://apollo2.humanbrain.in/viewer/annotation/portal");
+    public void Home_page(@Optional("defaultURL") String URL) throws InterruptedException {
+       driver.get(URL);
+    	//public void Home_page() throws InterruptedException {
+    	//driver.get("https://apollo2.humanbrain.in/viewer/annotation/portal");
         driver.manage().window().maximize();
         String currentURL = driver.getCurrentUrl();
         System.out.println("Current URL: " + currentURL);
