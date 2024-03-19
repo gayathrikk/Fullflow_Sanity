@@ -66,7 +66,7 @@ public class Testing {
         
         
         // Sudha Gopalakrishnan Brain Centre 
-        validateElement("//h1[@class='head m-0']", "Sudha Gopalakrishnan Brain Centre");
+        validateElement("//h2[@class='head']", "Sudha Gopalakrishnan Brain Centre");
         
      // Indian Institute of Technology Madras heading
         validateElement("(//h1[@class='head m-0']//following::h5)[1]", "Indian Institute of Technology Madras");
