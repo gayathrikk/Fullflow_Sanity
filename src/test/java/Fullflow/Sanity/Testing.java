@@ -69,7 +69,7 @@ public class Testing {
         validateElement("//h2[@class='head']", "Sudha Gopalakrishnan Brain Centre");
         
      // Indian Institute of Technology Madras heading
-        validateElement("(//h1[@class='head m-0']//following::h5)[1]", "Indian Institute of Technology Madras");
+        validateElement("(//h2[@class='head']//following::h5)[1]", "Indian Institute of Technology Madras");
 
         // Home option
         validateElement("(//a[text()='HOME'])[1]", "HOME");
