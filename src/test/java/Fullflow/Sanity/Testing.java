@@ -392,7 +392,7 @@ public class Testing {
     	} else {
     	    System.out.println("Manual Registration page is not opened");
     	}
-    	Thread.sleep(5000);
+    	Thread.sleep(8000);
     	checkConsoleLog();
     	
     	WebElement back = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a[@title='Back']")));
