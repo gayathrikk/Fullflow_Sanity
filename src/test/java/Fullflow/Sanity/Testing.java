@@ -155,7 +155,7 @@ public class Testing {
         }
         WebElement emailInput = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@type='email']")));
         if (emailInput != null && emailInput.isDisplayed()) {
-            emailInput.sendKeys("softwaretestingteam9@gmail.com");
+            emailInput.sendKeys("teamsoftware457@gmail.com");
             System.out.println("Email was entered successfully.");
         } else {
            System.out.println("Email was not entered.");
@@ -200,15 +200,14 @@ public class Testing {
     {
     	 driver.switchTo().defaultContent();
     	 WebDriverWait wait = new WebDriverWait(driver, 10);
-    	 //chicken brain
-    	 // validateElementTextAndClick("//a[text()=' chicken (Gallus gallus domesticus) ']", "chicken (Gallus gallus domesticus)", "chicken brain");
-    	 // validateElementTextAndClick("//a[text()=' demo ']", "demo", "Demo brain");
-    	 // validateElementTextAndClick("//a[text()=' Duck(Anas platyrhynchos) ']", "Duck(Anas platyrhynchos)", "Duck(Anas platyrhynchos) brain");
-    	 // validateElementTextAndClick("//a[text()=' Goat ']", "Goat", "Goat brain");
-    	 // validateElementTextAndClick("//a[text()='Adult (Human)']", " Adult (Human) ", "Human brain");
-    	 // validateElementTextAndClick("//a[text()=' Human fetus ']", "Human fetus", "Human fetus brain");
-    	 // validateElementTextAndClick("//a[text()=' Mouse ']", "Mouse", "Mouse brain");
-    	 // validateElementTextAndClick("//a[text()=' Quail(Coturnix japonica) ']", "Quail(Coturnix japonica)", "Quail brain");
+    	 validateElementTextAndClick("//a[text()=' chicken (Gallus gallus domesticus) ']", "chicken (Gallus gallus domesticus)", "chicken brain");
+    	 validateElementTextAndClick("//a[text()=' demo ']", "demo", "Demo brain");
+    	 validateElementTextAndClick("//a[text()=' Duck(Anas platyrhynchos) ']", "Duck(Anas platyrhynchos)", "Duck(Anas platyrhynchos) brain");
+    	 validateElementTextAndClick("//a[text()=' Goat ']", "Goat", "Goat brain");
+    	 validateElementTextAndClick("//a[text()='Adult (Human)']", " Adult (Human) ", "Human brain");
+    	 validateElementTextAndClick("//a[text()=' Human fetus ']", "Human fetus", "Human fetus brain");
+    	 validateElementTextAndClick("//a[text()=' Mouse ']", "Mouse", "Mouse brain");
+    	 validateElementTextAndClick("//a[text()=' Quail(Coturnix japonica) ']", "Quail(Coturnix japonica)", "Quail brain");
 
     	 clickElementByXpath("//table[@role='grid']//tr[6]", "Human fetus");
     	 clickElementByXpath("//table[@role='grid']//tr[7]//td[2]", "Brain");
