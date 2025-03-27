@@ -204,7 +204,7 @@ public class Testing {
     	 validateElementTextAndClick("//a[text()=' demo ']", "demo", "Demo brain");
     	 validateElementTextAndClick("//a[text()=' Duck(Anas platyrhynchos) ']", "Duck(Anas platyrhynchos)", "Duck(Anas platyrhynchos) brain");
     	 validateElementTextAndClick("//a[text()=' Goat ']", "Goat", "Goat brain");
-    	 validateElementTextAndClick("//a[text()=' Adult (Human) ']", " Adult (Human) ", "Human brain");
+    	 validateElementTextAndClick("//a[text()=' Adult (Human) ']", "Adult (Human)", "Human brain");
     	 validateElementTextAndClick("//a[text()=' Human fetus ']", "Human fetus", "Human fetus brain");
     	 validateElementTextAndClick("//a[text()=' Mouse ']", "Mouse", "Mouse brain");
     	 validateElementTextAndClick("//a[text()=' Quail(Coturnix japonica) ']", "Quail(Coturnix japonica)", "Quail brain");
