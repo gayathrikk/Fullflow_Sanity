@@ -153,6 +153,7 @@ public class Testing {
    //              break;
    //          }
    //      }
+		WebDriverWait wait = new WebDriverWait(driver, 30);
         WebElement emailInput = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@type='email']")));
         if (emailInput != null && emailInput.isDisplayed()) {
             emailInput.sendKeys("teamsoftware457@gmail.com");
