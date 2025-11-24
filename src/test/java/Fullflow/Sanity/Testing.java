@@ -126,7 +126,14 @@ public class Testing {
         checkIcon("Management", wait);
         driver.switchTo().frame(0);
         
-        
+	    WebElement Homebutton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='Home']")));
+        if (Homebutton != null) {
+            Homebutton.click();
+            System.out.println("Homebutton is clicked.");
+        } else {
+            System.out.println("Homebutton is not clicked.");
+        }
+		
         // Sudha Gopalakrishnan Brain Centre 
         validateElement("//h2[@class='head']", "Sudha Gopalakrishnan Brain Centre");
         
