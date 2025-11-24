@@ -124,7 +124,7 @@ public class Testing {
         checkIcon("PACS", wait);
         checkIcon("DashBoard", wait);
         checkIcon("Management", wait);
-       // driver.switchTo().frame(0);
+      
         
 	    WebElement Homebutton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='Home']")));
         if (Homebutton != null) {
@@ -133,6 +133,8 @@ public class Testing {
         } else {
             System.out.println("Homebutton is not clicked.");
         }
+
+		 driver.switchTo().frame(0);
 		
         // Sudha Gopalakrishnan Brain Centre 
         validateElement("//h2[@class='head']", "Sudha Gopalakrishnan Brain Centre");
