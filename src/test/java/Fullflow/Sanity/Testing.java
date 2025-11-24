@@ -125,7 +125,7 @@ public class Testing {
       
     public void login() throws InterruptedException {
     
-    	WebDriverWait wait = new WebDriverWait(driver, 10);
+    	// WebDriverWait wait = new WebDriverWait(driver, 10);
     	driver.switchTo().defaultContent(); // Switch back to default content
     	//  WebElement viewerElement = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a[@title='Viewer']")));
     	// if (viewerElement.isEnabled() && viewerElement.isDisplayed()) {
