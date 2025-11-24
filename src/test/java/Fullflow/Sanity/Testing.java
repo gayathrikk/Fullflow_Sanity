@@ -124,7 +124,7 @@ public class Testing {
         checkIcon("PACS", wait);
         checkIcon("DashBoard", wait);
         checkIcon("Management", wait);
-        driver.switchTo().frame(0);
+       // driver.switchTo().frame(0);
         
 	    WebElement Homebutton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='Home']")));
         if (Homebutton != null) {
