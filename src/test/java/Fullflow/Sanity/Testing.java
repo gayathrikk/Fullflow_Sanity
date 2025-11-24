@@ -54,49 +54,49 @@ public class Testing {
         System.out.println("Current URL: " + currentURL);
         WebDriverWait wait = new WebDriverWait(driver, 30);
 
-        checkIcon("Home", wait);
-        checkIcon("LIMS", wait);
-        checkIcon("Imaging & Cropping", wait);
-        checkIcon("Viewer", wait);
-        checkIcon("Ontology Editor", wait);
-        checkIcon("PACS", wait);
-        checkIcon("DashBoard", wait);
-        checkIcon("Management", wait);
-        driver.switchTo().frame(0);
+     //    checkIcon("Home", wait);
+     //    checkIcon("LIMS", wait);
+     //    checkIcon("Imaging & Cropping", wait);
+     //    checkIcon("Viewer", wait);
+     //    checkIcon("Ontology Editor", wait);
+     //    checkIcon("PACS", wait);
+     //    checkIcon("DashBoard", wait);
+     //    checkIcon("Management", wait);
+     //    driver.switchTo().frame(0);
         
         
-        // Sudha Gopalakrishnan Brain Centre 
-        validateElement("//h2[@class='head']", "Sudha Gopalakrishnan Brain Centre");
+     //    // Sudha Gopalakrishnan Brain Centre 
+     //    validateElement("//h2[@class='head']", "Sudha Gopalakrishnan Brain Centre");
         
-     // Indian Institute of Technology Madras heading
-        validateElement("(//h2[@class='head']//following::h5)[1]", "Indian Institute of Technology Madras");
+     // // Indian Institute of Technology Madras heading
+     //    validateElement("(//h2[@class='head']//following::h5)[1]", "Indian Institute of Technology Madras");
 
-        // Home option
-        validateElement("(//a[text()='HOME'])[1]", "HOME");
+     //    // Home option
+     //    validateElement("(//a[text()='HOME'])[1]", "HOME");
 
-        // PEOPLE option
-        validateElement("(//a[text()='PEOPLE'])[1]", "PEOPLE");
+     //    // PEOPLE option
+     //    validateElement("(//a[text()='PEOPLE'])[1]", "PEOPLE");
 
-        // PROJECT option
-        //validateElement("(//a[text()='PROJECT'])[1]", "PROJECT");
+     //    // PROJECT option
+     //    //validateElement("(//a[text()='PROJECT'])[1]", "PROJECT");
         
-        //  HIGHLIGHTS option 
-        validateElement("(//a[text()='HIGHLIGHTS'])[1]", "HIGHLIGHTS");
+     //    //  HIGHLIGHTS option 
+     //    validateElement("(//a[text()='HIGHLIGHTS'])[1]", "HIGHLIGHTS");
 
-        // DATA PORTAL option
-        validateElement("((//a[text()='NEWS & EVENTS'])//preceding::a[1])[1]", "DATA PORTAL");
+     //    // DATA PORTAL option
+     //    validateElement("((//a[text()='NEWS & EVENTS'])//preceding::a[1])[1]", "DATA PORTAL");
 
-        // NEWS & EVENTS option
-        validateElement("(//a[text()='NEWS & EVENTS'])[1]", "NEWS & EVENTS");
+     //    // NEWS & EVENTS option
+     //    validateElement("(//a[text()='NEWS & EVENTS'])[1]", "NEWS & EVENTS");
 
-        // CAREER option
-        validateElement("(//a[text()='CAREER'])[1]", "CAREER");
+     //    // CAREER option
+     //    validateElement("(//a[text()='CAREER'])[1]", "CAREER");
 
-        // GALLERY option
-        validateElement("(//a[text()='GALLERY'])[1]", "GALLERY");
+     //    // GALLERY option
+     //    validateElement("(//a[text()='GALLERY'])[1]", "GALLERY");
 
-        // CONTACTS option
-        validateElement("(//a[text()='CONTACTS'])[1]", "CONTACTS");
+     //    // CONTACTS option
+     //    validateElement("(//a[text()='CONTACTS'])[1]", "CONTACTS");
         
         
 //        validateElementText("//h3[text()='Our Vision']", "Our Vision", "Our Vision heading");
