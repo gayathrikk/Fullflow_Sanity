@@ -125,7 +125,7 @@ public class Testing {
       
     public void login() throws InterruptedException {
     
-    	// WebDriverWait wait = new WebDriverWait(driver, 10);
+    	 WebDriverWait wait = new WebDriverWait(driver, 30);
     	driver.switchTo().defaultContent(); // Switch back to default content
     	//  WebElement viewerElement = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a[@title='Viewer']")));
     	// if (viewerElement.isEnabled() && viewerElement.isDisplayed()) {
@@ -153,7 +153,7 @@ public class Testing {
    //              break;
    //          }
    //      }
-		WebDriverWait wait = new WebDriverWait(driver, 30);
+		
         WebElement emailInput = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@type='email']")));
         if (emailInput != null && emailInput.isDisplayed()) {
             emailInput.sendKeys("teamsoftware457@gmail.com");
