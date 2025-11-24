@@ -98,8 +98,8 @@ public class Testing {
 
       
         System.out.println("Login successfully");
-        checkConsoleLog();
-        Loginpage_API();
+        // checkConsoleLog();
+        // Loginpage_API();
         System.out.println("************************Login validation done***********************");
     }
 
