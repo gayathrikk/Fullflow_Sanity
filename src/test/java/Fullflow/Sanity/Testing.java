@@ -95,13 +95,13 @@ public class Testing {
             System.out.println("Next button 2 is not clicked.");
         }
 
-		WebElement continue = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[text()='Continue']")));
-        if (continue != null) {
-            continue.click();
-            System.out.println("Next button 2 is clicked.");
-        } else {
-            System.out.println("Next button 2 is not clicked.");
-        }
+		// WebElement continue = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[text()='Continue']")));
+  //       if (continue != null) {
+  //           continue.click();
+  //           System.out.println("Next button 2 is clicked.");
+  //       } else {
+  //           System.out.println("Next button 2 is not clicked.");
+  //       }
 
       
         System.out.println("Login successfully");
