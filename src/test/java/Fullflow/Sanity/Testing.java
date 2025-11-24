@@ -188,7 +188,7 @@ public class Testing {
         }
        
 
-        driver.switchTo().window(parentWindow);
+        // driver.switchTo().window(parentWindow);
         System.out.println("Login successfully");
         // checkConsoleLog();
         // Loginpage_API();
