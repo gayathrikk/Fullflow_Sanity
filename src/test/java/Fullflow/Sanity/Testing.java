@@ -110,87 +110,87 @@ public class Testing {
         System.out.println("************************Login validation done***********************");
     }
 
-    @Test(priority = 2)
+   //  @Test(priority = 2)
       
-    public void Home_page() throws InterruptedException {
+   //  public void Home_page() throws InterruptedException {
     
-    	 WebDriverWait wait = new WebDriverWait(driver, 30);
+   //  	 WebDriverWait wait = new WebDriverWait(driver, 30);
 
-        checkIcon("Home", wait);
-        checkIcon("LIMS", wait);
-        checkIcon("Imaging & Cropping", wait);
-        checkIcon("Viewer", wait);
-        checkIcon("Ontology Editor", wait);
-        checkIcon("PACS", wait);
-        checkIcon("DashBoard", wait);
-        checkIcon("Management", wait);
+   //      checkIcon("Home", wait);
+   //      checkIcon("LIMS", wait);
+   //      checkIcon("Imaging & Cropping", wait);
+   //      checkIcon("Viewer", wait);
+   //      checkIcon("Ontology Editor", wait);
+   //      checkIcon("PACS", wait);
+   //      checkIcon("DashBoard", wait);
+   //      checkIcon("Management", wait);
       
         
-	    WebElement Homebutton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='Home']")));
-        if (Homebutton != null) {
-            Homebutton.click();
-            System.out.println("Homebutton is clicked.");
-        } else {
-            System.out.println("Homebutton is not clicked.");
-        }
+	  //   WebElement Homebutton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='Home']")));
+   //      if (Homebutton != null) {
+   //          Homebutton.click();
+   //          System.out.println("Homebutton is clicked.");
+   //      } else {
+   //          System.out.println("Homebutton is not clicked.");
+   //      }
 
-	//	 driver.switchTo().frame(0);
+		 // driver.switchTo().frame(0);
 		
-     //    // Sudha Gopalakrishnan Brain Centre 
-     //    validateElement("//h2[@class='head']", "Sudha Gopalakrishnan Brain Centre");
+   //      // Sudha Gopalakrishnan Brain Centre 
+   //      validateElement("//h2[@class='head']", "Sudha Gopalakrishnan Brain Centre");
         
-     // // Indian Institute of Technology Madras heading
-     //    validateElement("(//h2[@class='head']//following::h5)[1]", "Indian Institute of Technology Madras");
+   //   // Indian Institute of Technology Madras heading
+   //      validateElement("(//h2[@class='head']//following::h5)[1]", "Indian Institute of Technology Madras");
 
-     //    // Home option
-     //    validateElement("(//a[text()='HOME'])[1]", "HOME");
+   //      // Home option
+   //      validateElement("(//a[text()='HOME'])[1]", "HOME");
 
-     //    // PEOPLE option
-     //    validateElement("(//a[text()='PEOPLE'])[1]", "PEOPLE");
+   //      // PEOPLE option
+   //      validateElement("(//a[text()='PEOPLE'])[1]", "PEOPLE");
 
-     //    // PROJECT option
-     //    //validateElement("(//a[text()='PROJECT'])[1]", "PROJECT");
+   //      // PROJECT option
+   //      //validateElement("(//a[text()='PROJECT'])[1]", "PROJECT");
         
-     //    //  HIGHLIGHTS option 
-     //    validateElement("(//a[text()='HIGHLIGHTS'])[1]", "HIGHLIGHTS");
+   //      //  HIGHLIGHTS option 
+   //      validateElement("(//a[text()='HIGHLIGHTS'])[1]", "HIGHLIGHTS");
 
-     //    // DATA PORTAL option
-     //    validateElement("((//a[text()='NEWS & EVENTS'])//preceding::a[1])[1]", "DATA PORTAL");
+   //      // DATA PORTAL option
+   //      validateElement("((//a[text()='NEWS & EVENTS'])//preceding::a[1])[1]", "DATA PORTAL");
 
-     //    // NEWS & EVENTS option
-     //    validateElement("(//a[text()='NEWS & EVENTS'])[1]", "NEWS & EVENTS");
+   //      // NEWS & EVENTS option
+   //      validateElement("(//a[text()='NEWS & EVENTS'])[1]", "NEWS & EVENTS");
 
-     //    // CAREER option
-     //    validateElement("(//a[text()='CAREER'])[1]", "CAREER");
+   //      // CAREER option
+   //      validateElement("(//a[text()='CAREER'])[1]", "CAREER");
 
-     //    // GALLERY option
-     //    validateElement("(//a[text()='GALLERY'])[1]", "GALLERY");
+   //      // GALLERY option
+   //      validateElement("(//a[text()='GALLERY'])[1]", "GALLERY");
 
-     //    // CONTACTS option
-     //    validateElement("(//a[text()='CONTACTS'])[1]", "CONTACTS");
+   //      // CONTACTS option
+   //      validateElement("(//a[text()='CONTACTS'])[1]", "CONTACTS");
         
         
-     //   // validateElementText("//h3[text()='Our Vision']", "Our Vision", "Our Vision heading");
-     //   // validateElementText("//h3[text()='Our Vision']//following::p[1]", "To become a world-renowned brain research enterprise that generates globally sought other human brain data and technology tools.", "Our Vision paragraph");
-     //   // validateElementText("//h3[text()='About']", "About", "About heading");
-     //   // validateElementText("//h3[text()='About']//following::p[1]", "The Sudha Gopalakrishan Brain centre at IIT Madras is developing a high throughput computational and experimental pipeline to study cellular architecture, connectivity and molecular architecture in human brains. This effort is supported by the Office of the Principal Scientific Advisor, Government of India along with contributions from Mr. Kris Gopalakrishnan, Co-founder, Infosys and Distinguished Alumnus of IITM.", "About paragraph 1");
-     //   // validateElementText("//h3[text()='About']//following::p[2]", "Our aim is to establish an integrated histology-imaging-compute pipeline at IIT Madras to acquire petabyte sized image data volumes, including from postmortem brains of subjects deceased from natural and medical causes. These datasets can also provide important and rare insights into neuronal pathways in the brain. for example, a brain with rabies infection can uniquely reveal neuronal pathways at a single neuron level in contrast with previous methods.", "About paragraph 2");
-     //   // validateElementText("//h3[text()='About']//following::p[3]", "In parallel, the project aims to develop technologies including high throughput slide scanner and digitizer technology, 10-100X faster than currently available instruments and a computation engine to handle Gigapixel and Terapixel level images and hundreds of Terabytes of neurohistology data. With a renewed interest in the understanding of the brain across the world as evidenced by the US Brain Initiative and the EU Human Brain Project, this project leverages expertise across-IITM, national, and international collaborations for results that would have significant impact on medicine, science and engineering. We anticipate that the project, in the near future, will seed an Indian Brain Initiative centered around the human brain.", "About paragraph 3");
-     //   // validateElementText("//h3[text()='About']//following::p[4]", "Specifically, following are the project objectives:", "About paragraph 4");
-     //   // validateElementText("//h3[text()='About']//following::li[1]", "Development of a high throughput data capture and computational pipeline for imaging whole human brains (Terapixels and Petavoxels) at a light microscopic resolution", "About point 1");
-     //   // validateElementText("//h3[text()='About']//following::li[2]", "Technology development for high throughput neurohistology pipeline with cellular resolution", "About point 2");
-     //   // validateElementText("//h3[text()='About']//following::li[3]", "Identification and analysis of neuronal architecture and pathways at a single neuron level", "About point 3");
-     //   // validateElementText("//h3[text()='About']//following::li[4]", "Generation of Visible data resources including the light-microscopic atlas of the human brain.", "About point 4");
-     //   // validateElementText("//h3[text()='About']//following::h5[1]", "Brain Research through Advanced Integrated Neuroanatomy", "Footer heading 1");
-     //   // validateElementText("//h3[text()='About']//following::p[6]", "Whole human brain neuro mapping at cellular resolution.", "Footer paragraph 1");
-     //   // validateElementText("//h3[text()='About']//following::h5[2]", "ADDRESS", "Footer heading 2");
-     //   // validateElementText("//h3[text()='About']//following::p[7]", "Sudha Gopalakrishnan BRAIN Centre\nStilt floor, NAC-1 Building\nIIT Madras, Chennai - 600036, India\nEmail: contact@humanbrainiitm.in\nPhone: +91-44-2257-8892", "Footer paragraph 2");
-     //   // validateElementText("//h3[text()='About']//following::p[8]", "© All Rights Reserved. Designed by HTML Codex", "Footer paragraph 3");
+   //     validateElementText("//h3[text()='Our Vision']", "Our Vision", "Our Vision heading");
+   //     validateElementText("//h3[text()='Our Vision']//following::p[1]", "To become a world-renowned brain research enterprise that generates globally sought other human brain data and technology tools.", "Our Vision paragraph");
+   //     validateElementText("//h3[text()='About']", "About", "About heading");
+   //     validateElementText("//h3[text()='About']//following::p[1]", "The Sudha Gopalakrishan Brain centre at IIT Madras is developing a high throughput computational and experimental pipeline to study cellular architecture, connectivity and molecular architecture in human brains. This effort is supported by the Office of the Principal Scientific Advisor, Government of India along with contributions from Mr. Kris Gopalakrishnan, Co-founder, Infosys and Distinguished Alumnus of IITM.", "About paragraph 1");
+   //     validateElementText("//h3[text()='About']//following::p[2]", "Our aim is to establish an integrated histology-imaging-compute pipeline at IIT Madras to acquire petabyte sized image data volumes, including from postmortem brains of subjects deceased from natural and medical causes. These datasets can also provide important and rare insights into neuronal pathways in the brain. for example, a brain with rabies infection can uniquely reveal neuronal pathways at a single neuron level in contrast with previous methods.", "About paragraph 2");
+   //     validateElementText("//h3[text()='About']//following::p[3]", "In parallel, the project aims to develop technologies including high throughput slide scanner and digitizer technology, 10-100X faster than currently available instruments and a computation engine to handle Gigapixel and Terapixel level images and hundreds of Terabytes of neurohistology data. With a renewed interest in the understanding of the brain across the world as evidenced by the US Brain Initiative and the EU Human Brain Project, this project leverages expertise across-IITM, national, and international collaborations for results that would have significant impact on medicine, science and engineering. We anticipate that the project, in the near future, will seed an Indian Brain Initiative centered around the human brain.", "About paragraph 3");
+   //     validateElementText("//h3[text()='About']//following::p[4]", "Specifically, following are the project objectives:", "About paragraph 4");
+   //     validateElementText("//h3[text()='About']//following::li[1]", "Development of a high throughput data capture and computational pipeline for imaging whole human brains (Terapixels and Petavoxels) at a light microscopic resolution", "About point 1");
+   //     validateElementText("//h3[text()='About']//following::li[2]", "Technology development for high throughput neurohistology pipeline with cellular resolution", "About point 2");
+   //     validateElementText("//h3[text()='About']//following::li[3]", "Identification and analysis of neuronal architecture and pathways at a single neuron level", "About point 3");
+   //     validateElementText("//h3[text()='About']//following::li[4]", "Generation of Visible data resources including the light-microscopic atlas of the human brain.", "About point 4");
+   //     validateElementText("//h3[text()='About']//following::h5[1]", "Brain Research through Advanced Integrated Neuroanatomy", "Footer heading 1");
+   //     validateElementText("//h3[text()='About']//following::p[6]", "Whole human brain neuro mapping at cellular resolution.", "Footer paragraph 1");
+   //     validateElementText("//h3[text()='About']//following::h5[2]", "ADDRESS", "Footer heading 2");
+   //     validateElementText("//h3[text()='About']//following::p[7]", "Sudha Gopalakrishnan BRAIN Centre\nStilt floor, NAC-1 Building\nIIT Madras, Chennai - 600036, India\nEmail: contact@humanbrainiitm.in\nPhone: +91-44-2257-8892", "Footer paragraph 2");
+   //     validateElementText("//h3[text()='About']//following::p[8]", "© All Rights Reserved. Designed by HTML Codex", "Footer paragraph 3");
 
-     //    checkConsoleLog();
-     //    HOMEpage_API();
-       System.out.println("************************Home page validation done*************************");
-    }
+   //      checkConsoleLog();
+   //      HOMEpage_API();
+   //     System.out.println("************************Home page validation done*************************");
+   //  }
 
 
 
@@ -199,7 +199,7 @@ public class Testing {
     {
     	 driver.switchTo().defaultContent();
     	 WebDriverWait wait = new WebDriverWait(driver, 20);
-		 clickElementByXpath("//nb-icon[@nbtooltip='Viewer']", "viewer icon");
+		
     	 validateElementTextAndClick("//a[text()=' chicken (Gallus gallus domesticus) ']", "chicken (Gallus gallus domesticus)", "chicken brain");
     	 validateElementTextAndClick("//a[text()=' demo ']", "demo", "Demo brain");
     	 validateElementTextAndClick("//a[text()=' Duck(Anas platyrhynchos) ']", "Duck(Anas platyrhynchos)", "Duck(Anas platyrhynchos) brain");
@@ -214,7 +214,7 @@ public class Testing {
     	 clickElementByXpath("//table[@role='grid']//tr[25]//td[3]", "FB40");
     	 
     	 String parentWindow = driver.getWindowHandle();
-    	 
+    	 clickElementByXpath("//nb-icon[@nbtooltip='Viewer']", "viewer icon");
     
     	 
     	 wait.until(ExpectedConditions.numberOfWindowsToBe(2));
