@@ -134,7 +134,7 @@ public class Testing {
             System.out.println("Homebutton is not clicked.");
         }
 
-		 driver.switchTo().frame(0);
+	//	 driver.switchTo().frame(0);
 		
      //    // Sudha Gopalakrishnan Brain Centre 
      //    validateElement("//h2[@class='head']", "Sudha Gopalakrishnan Brain Centre");
@@ -198,7 +198,7 @@ public class Testing {
     public void series_set()
     {
     	 driver.switchTo().defaultContent();
-    	 WebDriverWait wait = new WebDriverWait(driver, 10);
+    	 WebDriverWait wait = new WebDriverWait(driver, 20);
 		 clickElementByXpath("//nb-icon[@nbtooltip='Viewer']", "viewer icon");
     	 validateElementTextAndClick("//a[text()=' chicken (Gallus gallus domesticus) ']", "chicken (Gallus gallus domesticus)", "chicken brain");
     	 validateElementTextAndClick("//a[text()=' demo ']", "demo", "Demo brain");
