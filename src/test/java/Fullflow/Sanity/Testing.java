@@ -39,7 +39,7 @@ public class Testing {
     @BeforeTest
     public void setup() throws Exception {
         DesiredCapabilities dc = DesiredCapabilities.chrome();
-        URL url = new URL("http://172.22.0.5:4443/wd/hub");
+        URL url = new URL("http://172.29.0.3:4443/wd/hub");
         driver = new RemoteWebDriver(url, dc);
     }
 
